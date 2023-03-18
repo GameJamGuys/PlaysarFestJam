@@ -5,7 +5,7 @@ using UnityEngine;
 public class SignalSeeker : MonoBehaviour
 {
     [SerializeField]
-    MonoBehaviour robotController;
+    PlayerController controller;
 
     public enum State { Idle, OnControl }
     public State state;
@@ -21,10 +21,10 @@ public class SignalSeeker : MonoBehaviour
         switch (state)
         {
             case State.Idle:
-                robotController.enabled = false;
+                controller.control = false;
                 break;
             case State.OnControl:
-                robotController.enabled = true;
+                controller.control = true;
                 break;
             default:
                 return;
@@ -38,6 +38,7 @@ public class SignalSeeker : MonoBehaviour
         {
             print("Seeker enter signal");
             controller.NewUnit(this);
+            ChangeState(State.OnControl);
         }
 
     }
@@ -48,6 +49,7 @@ public class SignalSeeker : MonoBehaviour
         {
             print("Seeker exit signal");
             controller.RemoveUnit(this);
+            ChangeState(State.Idle);
         }
     }
 }

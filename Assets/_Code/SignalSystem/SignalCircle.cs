@@ -39,7 +39,7 @@ public class SignalCircle : MonoBehaviour
     public void RemoveUnit(SignalSeeker unit)
     {
         seekers.Remove(unit);
-        print($"Unit {unit.name} out of control");
+        print($"{unit.name} out of control");
         if (seekers.Count == 0)
         {
             DecreaseRadius();

@@ -50,20 +50,19 @@ public class PlayerController : MonoBehaviour {
     /// Update is called every frame, if the MonoBehaviour is enabled.
     /// </summary>
     void FixedUpdate() {
-        character.Walk(axis.x);
-        character.ClimbLadder(axis.y);
+        if (control)
+        {
+            character.Walk(axis.x);
+            character.ClimbLadder(axis.y);
+        }
+        
     }
 
     private void Move(Vector2 _axis) {
-        if (control)
-            axis = _axis;
-        else
-            axis = Vector2.zero;
+        axis = _axis;
     }
 
     private void Jump(InputAction.CallbackContext context) {
-        if (!control) return;
-
         if (axis.y < 0) {
             character.JumpDown();
         } else {

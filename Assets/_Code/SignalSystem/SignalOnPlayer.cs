@@ -9,7 +9,7 @@ public class SignalOnPlayer : MonoBehaviour
     SignalCircle signal;
 
     [SerializeField]
-    MonoBehaviour playerController;
+    PlayerController controller;
 
     private void OnEnable()
     {
@@ -23,13 +23,14 @@ public class SignalOnPlayer : MonoBehaviour
 
     void CheckSignalState(SignalCircle.ControlState state)
     {
+
         switch (state)
         {
             case SignalCircle.ControlState.UnitControl:
-                playerController.enabled = false;
+                controller.control = false;
                 break;
             case SignalCircle.ControlState.OutControl:
-                playerController.enabled = true;
+                controller.control = true;
                 break;
             default:
                 return;
