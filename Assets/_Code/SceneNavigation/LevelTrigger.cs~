@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using _Code.Services.Interfaces;
+using UnityEngine;
+
+public class LevelTrigger : MonoBehaviour, ILevelTrigger
+{
+    public enum Type { EndLevel, Restart }
+    public Type type;
+
+    ITriggerService _triggerService;
+
+    public void Init(ITriggerService triggerService)
+    {
+        _triggerService = triggerService;
+    }
+
+    public void EndLevel() => _triggerService.NextLevel();
+    public void RestartLevel() => _triggerService.Restart();
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            switch (type)
+            {
+                case Type.EndLevel:
+                    EndLevel();
+                    break;
+                case Type.Restart:
+                    RestartLevel();
+                    break;
+            }
+           
+        }
+    }
+}

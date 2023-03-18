@@ -80,7 +80,7 @@ public class InteractSystem : MonoBehaviour {
     /// </summary>
     public void Interact() {
         if (closestObject) {
-            closestObject.Interact();
+            closestObject.Interact(this);
             closestObject = null;
         }
     }
