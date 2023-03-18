@@ -2,6 +2,7 @@ using System;
 using _Code.Data;
 using _Code.Interactables.Checker;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _Code.Interactables
 {
@@ -19,6 +20,8 @@ namespace _Code.Interactables
         
         //Anim
         private static readonly int Active = Animator.StringToHash("active");
+        public bool animEnded;
+        
 
         private void OnEnable()
         {
@@ -40,6 +43,11 @@ namespace _Code.Interactables
         {
             _audioSource.PlayOneShot(_doorOpenSound);
             _animator.SetBool(Active, state);
+        }
+
+        public void OnAnimEnded()
+        {
+            animEnded = true;
         }
     }
 }
