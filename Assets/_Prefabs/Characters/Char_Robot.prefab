@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
-      value: Robot Variant
+      value: Char_Robot
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956077, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_RootOrder
@@ -66,6 +66,18 @@ PrefabInstance:
     - target: {fileID: 7679164028982497717, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Color.r
       value: 0.08957815
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf33267ee6e63484094c76e57910a60b, type: 3}

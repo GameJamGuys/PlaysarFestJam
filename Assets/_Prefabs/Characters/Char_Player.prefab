@@ -11,6 +11,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Char_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Size.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Size.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 52
+      objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956077, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -63,7 +83,20 @@ PrefabInstance:
       propertyPath: m_Color.g
       value: 0.8818593
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.279917
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2413194340376999762, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
 --- !u!114 &9028036696750637030 stripped
 MonoBehaviour:
