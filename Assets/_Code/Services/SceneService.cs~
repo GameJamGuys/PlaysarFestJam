@@ -16,7 +16,7 @@ public class SceneService : MonoBehaviour, ISceneService
         sceneCount = SceneManager.sceneCountInBuildSettings;
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
 
-        print($"Scene {sceneIndex}");
+        print($"Scene {sceneIndex}, count {sceneCount}");
     }
 
     private void Update()
@@ -31,10 +31,10 @@ public class SceneService : MonoBehaviour, ISceneService
     public void NextLevel()
     {
         
-        if (sceneIndex == sceneCount - 1)
+        if (SceneManager.GetActiveScene().buildIndex == sceneCount)
             GoToMenu();
         else
-            Load(sceneIndex + 1);
+            Load(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void GoToMenu() => Load(0);
