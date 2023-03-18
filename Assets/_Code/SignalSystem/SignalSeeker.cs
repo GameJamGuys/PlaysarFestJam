@@ -23,6 +23,10 @@ public class SignalSeeker : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        if (collision.TryGetComponent<SignalCircle>(out SignalCircle controller))
+        {
+            controller.RemoveUnit(this);
+        }
+        state = State.OnIdle;
     }
 }
