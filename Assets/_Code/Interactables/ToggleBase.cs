@@ -6,7 +6,7 @@ namespace _Code.Interactables
     public abstract class ToggleBase : MonoBehaviour
     {
         //Private Fields
-        protected bool _state;
+        [SerializeField] protected bool _state;
         
         //Actions
         public Action<bool> toggled;
@@ -27,7 +27,8 @@ namespace _Code.Interactables
         //Public Methods
         public virtual void Toggle()
         {
-            toggled?.Invoke(_state);
+            State = !State;
+            toggled.Invoke(_state);
         }
     }
 }

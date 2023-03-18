@@ -16,8 +16,8 @@ namespace _Code.Interactables
         {
             if (!_toggled)
             {
+                base.Toggle();
                 _toggled = true;
-                State = !State;
             }
         }
     }

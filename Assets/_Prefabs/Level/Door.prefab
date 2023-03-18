@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1789821445
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.8962264, g: 0.8221111, b: 0.4185208, a: 0}
@@ -134,7 +134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 468259585273782233}
   - component: {fileID: 7070699411862484384}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Door2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1789821445
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 2
   m_Sprite: {fileID: 989960661, guid: 8fe2a938f5c6e4605bc9e8e1b4fde2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593645196146881315}
   - component: {fileID: 7470202708975199244}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LiftFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1789821445
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 3
   m_Sprite: {fileID: 113113908, guid: 02a1cb50bb9aa4d83a217d1986799127, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -302,7 +302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097765432158819631}
   - component: {fileID: 2776074876181765157}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1789821445
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 2
   m_Sprite: {fileID: -96675789, guid: 8fe2a938f5c6e4605bc9e8e1b4fde2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -418,7 +418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6172627399760244015}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 1835968320980127099}
   - component: {fileID: 5345083718254146227}
   - component: {fileID: 5155513868483991107}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 5345083718254146227}
-  _trigger: {fileID: 2864906403861852194}
+  _toggle: {fileID: 1835968320980127099}
 --- !u!114 &2864906403861852194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e295dda5103a4e368f83a01eca37ac21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _state: 0
   _defaultState: 0
 --- !u!95 &5345083718254146227
 Animator:
@@ -581,7 +582,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 64, y: 82}
+  m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
 --- !u!1 &6798045752713300425
 GameObject:
@@ -594,7 +595,7 @@ GameObject:
   - component: {fileID: 152455068984588524}
   - component: {fileID: 3830773102516678330}
   - component: {fileID: 6891250724142103673}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DoorMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +656,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1789821445
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.011764707, g: 0.078431375, b: 0.1137255, a: 1}

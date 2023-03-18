@@ -5,9 +5,6 @@ namespace _Code.Interactables
     /// </summary>
     public class ToggleInfinite : ToggleBase
     {
-        public override void Toggle()
-        {
-            State = !State;
-        }
+        
     }
 }
