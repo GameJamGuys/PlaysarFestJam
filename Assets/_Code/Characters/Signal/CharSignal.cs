@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace _Code.Characters
@@ -14,10 +15,14 @@ namespace _Code.Characters
         
         //Public properties
         public bool State => _state;
+        
+        //Public Events
+        public Action<bool> settedSignal;
 
 
         public void SetSignal(bool state)
         {
+            settedSignal?.Invoke(state);
             _controller.SetControls(state);
         }
     }
