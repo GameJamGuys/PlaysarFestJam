@@ -261,9 +261,21 @@ PrefabInstance:
       propertyPath: smallRadius
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 5042865046099395515, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: _circleTransform
+      value: 
+      objectReference: {fileID: 4266700698853286232}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_LocalScale.z
@@ -335,6 +347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+--- !u!4 &4266700698853286232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+  m_PrefabInstance: {fileID: 9137107272784323301}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4266700698853286238 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5042865046099395515, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
