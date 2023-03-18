@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour {
 
     // Other components
     private CharacterController2D character;
-    private CameraController cameraController;
+    //private CameraController cameraController;
     private CheckpointSystem checkpoint;
     private InteractSystem interact;
     private Vector2 axis;
@@ -27,10 +27,10 @@ public class PlayerController : MonoBehaviour {
         character = GetComponent<CharacterController2D>();
         checkpoint = GetComponent<CheckpointSystem>();
         interact = GetComponent<InteractSystem>();
-        cameraController = GameObject.FindObjectOfType<CameraController>();
+        /*cameraController = GameObject.FindObjectOfType<CameraController>();
         if (!cameraController) {
             Debug.LogError("The scene is missing a camera controller! The player script needs it to work properly!");
-        }
+        }*/
         controls = new InputMaster();
         controls.Player.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());
         controls.Player.Movement.canceled += ctx => Move(Vector2.zero);
@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour {
     /// Starts the soft respwan after a delay and fades out the screen
     /// </summary>
     private void StartSoftRespawn() {
-        cameraController.FadeOut();
+        //cameraController.FadeOut();
         Invoke("EndSoftRespawn", softRespawnDuration);
     }
 
@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour {
     /// </summary>
     private void EndSoftRespawn() {
         checkpoint.ReturnToSoftCheckpoint();
-        cameraController.FadeIn();
+        //cameraController.FadeIn();
         character.Immobile = false;
     }
 
