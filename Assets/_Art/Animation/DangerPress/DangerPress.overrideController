@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DangerPress
+  m_Controller: {fileID: 9100000, guid: b3c4cca4279c29e40989294a43021b5a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5fab4b42a725c0647a845821a99edc45, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cf9cd09e29b384560b5ee1141e97eeff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4af312be4ad4f7140a1bcbb3655e51e7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dcbfd43f8bee541aeabd4c828e94317c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0745625f7f2626b4faf514ed7a5d770d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 72fcc42cf2c1d4da9ab5f2d0d3594bfb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 72ef22867f0eacc44bd698b7f6a2a6a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 74368bf63f28c4a0a80fd2de04050335, type: 2}
