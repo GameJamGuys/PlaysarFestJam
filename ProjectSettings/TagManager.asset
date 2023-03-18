@@ -50,6 +50,9 @@ TagManager:
   - name: Foreground
     uniqueID: 1789821445
     locked: 0
+  - name: Triggers
+    uniqueID: 1875667953
+    locked: 0
   - name: UI
     uniqueID: 240361341
     locked: 0
