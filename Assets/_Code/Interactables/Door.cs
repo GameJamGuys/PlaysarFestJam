@@ -9,8 +9,12 @@ namespace _Code.Interactables
     {
         private bool _state;
 
+        [Header("Sounds")]
+        [SerializeField] private AudioClip _doorOpenSound;
+        
         [Header("Components")] 
         [SerializeField] private Animator _animator;
+        [SerializeField] private AudioSource _audioSource;
         [SerializeField] private ToggleBase _toggle;
         
         //Anim
@@ -34,6 +38,7 @@ namespace _Code.Interactables
 
         private void SetAnim(bool state)
         {
+            _audioSource.PlayOneShot(_doorOpenSound);
             _animator.SetBool(Active, state);
         }
     }

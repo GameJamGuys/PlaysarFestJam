@@ -9,12 +9,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_SortingLayerID
       value: 32934581
       objectReference: {fileID: 0}
+    - target: {fileID: 7226266194112711481, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 86288eea6be781d47abcececdc98200a, type: 3}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
       value: Char_Robot
