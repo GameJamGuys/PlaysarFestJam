@@ -234,17 +234,6 @@ Transform:
   m_Father: {fileID: 2079303687}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &142720787 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7562970617568813151, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
-  m_PrefabInstance: {fileID: 1998238101}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c71da346304afd4a9e737d6355a1d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &256883623
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,10 +326,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3849907465953959562, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
-      propertyPath: playerController
-      value: 
-      objectReference: {fileID: 606507974}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -391,17 +376,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
---- !u!114 &606507974 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9028036696750637030, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
-  m_PrefabInstance: {fileID: 418530787}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c71da346304afd4a9e737d6355a1d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &971735097
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,10 +662,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 508561997768109101, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
-      propertyPath: robotController
-      value: 
-      objectReference: {fileID: 142720787}
     - target: {fileID: 7523246288270178763, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
       propertyPath: m_Name
       value: Char_Robot
