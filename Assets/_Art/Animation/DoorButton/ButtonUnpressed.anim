@@ -25,6 +25,13 @@ AnimationClip:
     path: ButtonPlate/Button
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 420565631, guid: ac84f3f7e9fb24d369b5540d6b31f49f, type: 3}
+    attribute: m_Sprite
+    path: Button
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -39,7 +46,15 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1034594571
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
+    - {fileID: 420565631, guid: ac84f3f7e9fb24d369b5540d6b31f49f, type: 3}
     - {fileID: 420565631, guid: ac84f3f7e9fb24d369b5540d6b31f49f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
