@@ -1117,6 +1117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 8675742447246009834, guid: 00ccfc42cf9884e0ebf53ec4356159a3, type: 3}
+      propertyPath: oneShot
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00ccfc42cf9884e0ebf53ec4356159a3, type: 3}
 --- !u!1001 &8276237952285209609
@@ -1178,10 +1182,6 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 2776597118947842226}
-    - target: {fileID: 8276237952075129277, guid: a49d3a3c6bbe44a8cbcf0aedc7f2fbbf, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a49d3a3c6bbe44a8cbcf0aedc7f2fbbf, type: 3}
 --- !u!1001 &8344674206105620922
