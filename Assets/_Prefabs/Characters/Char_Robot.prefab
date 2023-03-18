@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 32934581
+      objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
       value: Char_Robot
@@ -70,6 +78,10 @@ PrefabInstance:
     - target: {fileID: 7679164028982497717, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Color.r
       value: 0.08957815
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679164028982497719, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8265757776242392009, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Color.b

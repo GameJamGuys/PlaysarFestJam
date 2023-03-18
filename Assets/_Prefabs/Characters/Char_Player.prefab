@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 026097735933c4a52ba51881fb7954a8, type: 3}
+    - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 617198617715668751, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 32934581
+      objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
       value: Char_Player
@@ -21,11 +33,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Size.y
-      value: 48
+      value: 55.025894
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: -8.343246
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956074, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -154,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_LocalScale.z
