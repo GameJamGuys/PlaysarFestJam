@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -1481787239
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 420565631, guid: ac84f3f7e9fb24d369b5540d6b31f49f, type: 3}
+  m_Sprite: {fileID: 1402811695, guid: 9c12b9716a1f640f9b44f8a6fd77d7c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 1518176341536774972}
   - component: {fileID: 865342918646208589}
   - component: {fileID: 4129291463258423999}
+  - component: {fileID: 4110007540879775903}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -364,3 +365,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultState: 0
+--- !u!114 &4110007540879775903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548873704137237917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd74ce399ec54936af640218e39ebefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trueSprite: {fileID: 1402811695, guid: 9c12b9716a1f640f9b44f8a6fd77d7c5, type: 3}
+  _falseSprite: {fileID: 420565631, guid: ac84f3f7e9fb24d369b5540d6b31f49f, type: 3}
+  _renderer: {fileID: 6123625929387477755}
+  _toggle: {fileID: 4129291463258423999}
