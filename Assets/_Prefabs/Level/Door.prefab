@@ -93,7 +93,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072463549}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -124,8 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 707e5af367db34e5fb278639f4659bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _toggleChecker: {fileID: 4109917115817711093}
-  _door: {fileID: 921981806398311212}
 --- !u!1 &78850690657101270
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,8 +608,8 @@ MonoBehaviour:
   _doorOpenSound: {fileID: 8300000, guid: 3b5b8982bd86d4549be2a83e8131c15c, type: 3}
   _animator: {fileID: 5345083718254146227}
   _audioSource: {fileID: 6700762263306831531}
-  _toggle: {fileID: 1835968320980127099}
-  _toggleCheckerBase: {fileID: 4109917115817711093}
+  _toggleChecker: {fileID: 4109917115817711093}
+  _collider2D: {fileID: 1072463551}
   animEnded: 0
 --- !u!114 &1835968320980127099
 MonoBehaviour:
