@@ -8,6 +8,7 @@ namespace _Code.SignalSystem
     {
         [SerializeField] private float smallRadius;
         [SerializeField] private float bigRadius;
+        [SerializeField] private Transform _circleTransform;
 
         private List<RobotSignal> seekers;
         public event Action<bool> OnChangeControlState; // True if control seeker
@@ -21,7 +22,7 @@ namespace _Code.SignalSystem
         void IncreaseRadius() => ChangeRadius(bigRadius);
         void DecreaseRadius() => ChangeRadius(smallRadius);
 
-        void ChangeRadius(float scale) => transform.localScale = new Vector3(scale, scale, 1);
+        void ChangeRadius(float scale) => _circleTransform.localScale = new Vector3(scale, scale, 1);
 
         public void NewUnit(RobotSignal unit)
         {
