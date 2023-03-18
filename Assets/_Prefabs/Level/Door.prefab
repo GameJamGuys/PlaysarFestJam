@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1789821445
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.8962264, g: 0.8221111, b: 0.4185208, a: 0}
@@ -194,9 +194,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1465510193
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: 1789821445
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 02a1cb50bb9aa4d83a217d1986799127, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -233,7 +233,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5345083718254146237}
-  m_LocalRotation: {x: -0, y: 0, z: -1, w: -0.0000001872535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.5, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -244,7 +244,7 @@ Transform:
   - {fileID: 1072463553}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.00002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5345083718254146227
 Animator:
   serializedVersion: 5
@@ -349,9 +349,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1465510193
-  m_SortingLayer: 1
-  m_SortingOrder: -5
+  m_SortingLayerID: 1789821445
+  m_SortingLayer: 3
+  m_SortingOrder: -1
   m_Sprite: {fileID: 989960661, guid: 8fe2a938f5c6e4605bc9e8e1b4fde2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -433,9 +433,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1465510193
-  m_SortingLayer: 1
-  m_SortingOrder: -5
+  m_SortingLayerID: 1789821445
+  m_SortingLayer: 3
+  m_SortingOrder: -1
   m_Sprite: {fileID: -96675789, guid: 8fe2a938f5c6e4605bc9e8e1b4fde2ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
