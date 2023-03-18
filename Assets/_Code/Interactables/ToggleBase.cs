@@ -1,11 +1,15 @@
+using System;
 using UnityEngine;
 
 namespace _Code.Interactables
 {
-    public abstract class ToggleBase
+    public abstract class ToggleBase : MonoBehaviour
     {
         //Private Fields
         protected bool _state;
+        
+        //Actions
+        public Action<bool> toggled;
 
         public bool State
         {
@@ -21,6 +25,9 @@ namespace _Code.Interactables
         [SerializeField] protected bool _defaultState;
 
         //Public Methods
-        public abstract void Toggle();
+        public virtual void Toggle()
+        {
+            toggled?.Invoke(_state);
+        }
     }
 }

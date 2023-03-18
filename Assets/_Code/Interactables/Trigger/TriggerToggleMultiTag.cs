@@ -1,7 +1,5 @@
-using System;
 using _Code.Data;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace _Code.Interactables
 {

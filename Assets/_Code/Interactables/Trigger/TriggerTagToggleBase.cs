@@ -5,7 +5,7 @@ namespace _Code.Interactables
 {
     public abstract class TriggerToggleBase : MonoBehaviour
     {
-        protected ToggleBase _toggle;
+        [SerializeField] protected ToggleBase _toggle;
 
         protected abstract bool Check(string tag);
 
