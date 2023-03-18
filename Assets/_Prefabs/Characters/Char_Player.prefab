@@ -146,23 +146,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5042865046099395515, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: bigRadius
-      value: 400
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395515, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: smallRadius
-      value: 250
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_LocalScale.z
@@ -174,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046099395517, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -215,6 +207,10 @@ PrefabInstance:
     - target: {fileID: 5042865046099395518, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_Name
       value: SignalCircle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042865046644355396, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: m_Color.a
+      value: 0.6392157
       objectReference: {fileID: 0}
     - target: {fileID: 5042865046644355396, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_SortingLayer
