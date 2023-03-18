@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1065286073266666534, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: levelTriggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065286073266666534, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: levelTriggers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1072463554}
     - target: {fileID: 1065286074842217698, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -509,7 +517,7 @@ GameObject:
   - component: {fileID: 1072463553}
   - component: {fileID: 1072463552}
   - component: {fileID: 1072463551}
-  - component: {fileID: 1072463550}
+  - component: {fileID: 1072463554}
   m_Layer: 0
   m_Name: EndLevelTrigger
   m_TagString: Untagged
@@ -517,18 +525,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1072463550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072463549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707e5af367db34e5fb278639f4659bbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1072463551
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -622,6 +618,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1072463554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072463549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707e5af367db34e5fb278639f4659bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1216568657
 GameObject:
   m_ObjectHideFlags: 0
