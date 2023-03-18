@@ -419,7 +419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &971735098
 Transform:
   m_ObjectHideFlags: 0
@@ -939,22 +939,6 @@ PrefabInstance:
     - target: {fileID: 3368192334442904315, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
-      propertyPath: m_NormalizedViewPortRect.x
-      value: 0.16822945
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
-      propertyPath: m_NormalizedViewPortRect.y
-      value: 0.15353122
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
-      propertyPath: m_NormalizedViewPortRect.width
-      value: 0.66188633
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
-      propertyPath: m_NormalizedViewPortRect.height
-      value: 0.6908905
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9669b72293307242b887000b46c814d, type: 3}
