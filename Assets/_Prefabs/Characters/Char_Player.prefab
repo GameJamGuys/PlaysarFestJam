@@ -102,15 +102,15 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2413194340376999762, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
---- !u!114 &9028036696750637030 stripped
+--- !u!114 &7858204339489972227 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7679164029299157059, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8851308584641623974, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
   m_PrefabInstance: {fileID: 1719206777751754661}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9068251409312015986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c71da346304afd4a9e737d6355a1d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 389dcbbae3844981bd8c68093c260c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &9068251409312015944 stripped
@@ -135,8 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a02bfc1d3ce90467d83be5a5014aad88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 4266700698853286238}
-  controller: {fileID: 9028036696750637030}
+  _circleSignal: {fileID: 4266700698853286238}
+  _charSignal: {fileID: 7858204339489972227}
 --- !u!1001 &9137107272784323301
 PrefabInstance:
   m_ObjectHideFlags: 0
