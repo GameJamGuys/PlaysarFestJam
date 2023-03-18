@@ -1,9 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelChanger : ISceneController
+public class SceneController : MonoBehaviour, ISceneController
 {
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R)) Restart();

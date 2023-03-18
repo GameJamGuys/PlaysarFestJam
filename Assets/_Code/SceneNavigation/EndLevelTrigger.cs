@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelTrigger : MonoBehaviour
+public class EndLevelTrigger : MonoBehaviour
 {
     [SerializeField]
     private int level;
@@ -11,7 +11,7 @@ public class LevelTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-
+            //SceneController.NextLevel();
         }
     }
 
