@@ -403,6 +403,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6548873704137237916, guid: 032c204e916534147aa0544e2df24da9, type: 3}
   m_PrefabInstance: {fileID: 509742546}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &892700435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4129291463258423999, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+  m_PrefabInstance: {fileID: 509742546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5059b618c55040c9b28f3d7caa714eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1120230758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -704,7 +715,7 @@ PrefabInstance:
     - target: {fileID: 4109917115817711093, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
       propertyPath: _toggles.Array.data[0]
       value: 
-      objectReference: {fileID: 1752907852}
+      objectReference: {fileID: 892700435}
     - target: {fileID: 5345083718254146225, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
       propertyPath: trigger
       value: 
@@ -777,17 +788,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 707e5af367db34e5fb278639f4659bbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1752907852 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1835968320980127099, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
-  m_PrefabInstance: {fileID: 1752907849}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e295dda5103a4e368f83a01eca37ac21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1930293256 stripped
