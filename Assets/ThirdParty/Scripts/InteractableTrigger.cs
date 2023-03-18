@@ -7,7 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(TriggerObject))]
 public class InteractableTrigger : InteractableObject
 {
-    [SerializeField] private TagType _charTag;
+    [SerializeField] private TagType _charTag = TagType.Player;
     private TriggerObject trigger;
 
     /// <summary>
