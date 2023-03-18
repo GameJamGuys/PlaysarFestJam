@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="930353c6-f9f7-4c30-b7d1-66f1b4ba2a54" name="Changes" comment="" />
+    <list default="true" id="930353c6-f9f7-4c30-b7d1-66f1b4ba2a54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlaysarJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlaysarJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/CharSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/CharSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/CharSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/CharSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/PlayerSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/PlayerSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/PlayerSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/PlayerSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/RobotSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/RobotSignal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/RobotSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/RobotSignal.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalCircle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalCircle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalCircle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalCircle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalSeeker.cs~" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +29,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\z0diakk\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\z0diakk\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\z0diakk\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\z0diakk\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\z0diakk\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\z0diakk\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:/Builds/_playsarJam\PlaysarJam.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Builds\_playsarJam" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Editor\2021.3.21f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\z0diakk\Documents\_UnityNow\PlaysarJam -debugCodeOptimization" />
@@ -57,10 +79,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26424">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="26424" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -77,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679125405898</updated>
       <workItem from="1679125410968" duration="3623000" />
+      <workItem from="1679138943067" duration="4745000" />
     </task>
     <servers />
   </component>
