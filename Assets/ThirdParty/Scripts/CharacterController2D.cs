@@ -45,7 +45,6 @@ public class CharacterController2D : ObjectController2D {
     /// </summary>
     public override void Start() {
         cData = GetComponent<CharacterData>();
-        animator = GetComponent<Animator>();
         soundManager = GetComponent<CharacterSoundManager>();
         OnLadder = false;
         Dashing = false;
@@ -274,7 +273,7 @@ public class CharacterController2D : ObjectController2D {
             FacingRight = TotalSpeed.x > 0; 
             if (visual) visual.flipX = !FacingRight;
         }
-        animator.SetFloat(ANIM_MOVE_X, speed.x);
+        animator.SetFloat(ANIM_MOVE_X, Mathf.Abs(speed.x));
         animator.SetBool(ANIM_GROUNDED, collisions.onGround);
     }
 

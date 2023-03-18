@@ -997,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -114
+      value: -79
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1039,6 +1039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9068251409312015986, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
 --- !u!4 &3739993040225200684 stripped
@@ -1053,6 +1057,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1019475126}
     m_Modifications:
+    - target: {fileID: 7248697704014156689, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c396c09411bf94de480ee2ab5f356ce2, type: 2}
     - target: {fileID: 7523246288270178763, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
       propertyPath: m_Name
       value: Robot

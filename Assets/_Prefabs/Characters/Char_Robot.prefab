@@ -147,6 +147,10 @@ PrefabInstance:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: 86288eea6be781d47abcececdc98200a, type: 3}
+    - target: {fileID: 7420880380280347533, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 96241dc52fa5e4d91b7e4b27801e5021, type: 2}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
       value: Char_Robot
@@ -229,6 +233,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+--- !u!95 &7248697704014156689 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7420880380280347533, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+  m_PrefabInstance: {fileID: 172490608801384476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7523246288270178763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
@@ -247,6 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _charSignal: {fileID: 8697265659511275450}
+  anim: {fileID: 7248697704014156689}
 --- !u!114 &6042020147231664747
 MonoBehaviour:
   m_ObjectHideFlags: 0
