@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3e7017c6e89e452894991617c7b0e03
+guid: 9c12b9716a1f640f9b44f8a6fd77d7c5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,22 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0437\u0435\u0431\u0440\u0430._0"
+      name: ButtonPress
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 7, z: 5, w: 7}
+        x: 2
+        y: 2
+        width: 21
+        height: 24
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbd2e2d085014d4782de2c9819c53ba
-      internalID: -1585135573
+      spriteID: 8a3864964bc6d49668fdcf52d24e9b1b
+      internalID: 1402811695
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u0437\u0435\u0431\u0440\u0430._0": -1585135573
+      ButtonPress: 1402811695
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
