@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneController : MonoBehaviour, ISceneController
+public class SceneService : MonoBehaviour, ISceneService
 {
     public void Init()
     {
-        throw new System.NotImplementedException();
+        
     }
 
     private void Update()
