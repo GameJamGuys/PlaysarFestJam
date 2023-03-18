@@ -329,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 350
   accelerationTime: 0.05
-  decelerationTime: 0.15
+  decelerationTime: 0
   canUseSlopes: 1
   maxExtraJumps: 0
   maxJumpHeight: 150

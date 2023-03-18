@@ -611,7 +611,7 @@ MonoBehaviour:
   _animator: {fileID: 5345083718254146227}
   _audioSource: {fileID: 6700762263306831531}
   _toggle: {fileID: 1835968320980127099}
-  _toggleCheckerBase: {fileID: 0}
+  _toggleCheckerBase: {fileID: 4109917115817711093}
   animEnded: 0
 --- !u!114 &1835968320980127099
 MonoBehaviour:
