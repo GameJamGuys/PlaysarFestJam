@@ -14,12 +14,11 @@ public class SignalCircle : MonoBehaviour
         seekers = new List<SignalSeeker>();
     }
 
-    void IncreaseRadius() => ChangeRadius(2);
+    void IncreaseRadius() => ChangeRadius(4);
 
-    void DecreaseRadius() => ChangeRadius(-2);
+    void DecreaseRadius() => ChangeRadius(2);
 
-    void ChangeRadius(float multy) => transform.localScale.Scale(new Vector3(multy, multy, 1));
-
+    void ChangeRadius(float scale) => transform.localScale = new Vector3(scale, scale, 1);
 
     public void NewUnit(SignalSeeker unit)
     {
