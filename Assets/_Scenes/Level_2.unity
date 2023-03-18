@@ -226,25 +226,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2100996426}
     m_Modifications:
-    - target: {fileID: 4266700698341266337, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
-      propertyPath: m_Color.a
-      value: 0.22745098
-      objectReference: {fileID: 0}
-    - target: {fileID: 4266700698341266337, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 90afcc68b75d0e4448fcaef69ab9917f, type: 2}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -429.1
+      value: -423.4
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -224.2
+      value: -195.9
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.z
@@ -291,6 +283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6123625929387477755, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93a04a9d07a5a684895d563501451d53, type: 3}
     - target: {fileID: 6548873704137237904, guid: 032c204e916534147aa0544e2df24da9, type: 3}
       propertyPath: _charTag
       value: 1

@@ -1057,17 +1057,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1019475126}
     m_Modifications:
-    - target: {fileID: 7248697704014156689, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c396c09411bf94de480ee2ab5f356ce2, type: 2}
     - target: {fileID: 7523246288270178763, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
       propertyPath: m_Name
       value: Robot
-      objectReference: {fileID: 0}
-    - target: {fileID: 7523246288270178763, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7523246288270178801, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
       propertyPath: m_RootOrder
@@ -1113,10 +1105,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7523246288270178807, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 5d870f2a9288f40d6985ec1443e0a9ec, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
 --- !u!4 &6587417972745693662 stripped
