@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Char_Player
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956077, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_RootOrder
@@ -178,6 +178,14 @@ PrefabInstance:
     - target: {fileID: 5042865046099395518, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
       propertyPath: m_Name
       value: SignalCircle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042865046644355396, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042865046644355396, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1875667953
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e43e6da16322d4f4582abd9c5c601a7a, type: 3}
