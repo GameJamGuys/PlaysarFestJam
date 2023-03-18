@@ -126,7 +126,19 @@ public class PlayerController : MonoBehaviour {
     /// <summary>
     /// This function is called when the behaviour becomes disabled or inactive.
     /// </summary>
-    void OnDisable() {
+    private void OnDisable()
+    {
+        
         controls.Player.Disable();
+    }
+
+    public void SetControls(bool state)
+    {
+        
+        control = state;
+        if (!state)
+        {
+            Move(Vector2.zero);
+        }
     }
 }
