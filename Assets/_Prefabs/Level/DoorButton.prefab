@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4239799346417505611}
   - component: {fileID: 942206977185314311}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1481787239
+  m_SortingLayer: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7075472, g: 0.3037113, b: 0.3037113, a: 1}
   m_FlipX: 0
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419094799842603381}
   - component: {fileID: 6165772171170223487}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: ButtonPlate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,8 +155,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1481787239
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.8113208, g: 0.7444867, b: 0.3099858, a: 1}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 6548873704137237907}
   - component: {fileID: 8705858149964455555}
   - component: {fileID: 1518176341536774972}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: DoorButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: 1
+  _charTag: 1
 --- !u!61 &6548873704137237907
 BoxCollider2D:
   m_ObjectHideFlags: 0

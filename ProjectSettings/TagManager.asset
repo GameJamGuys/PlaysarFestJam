@@ -45,6 +45,12 @@ TagManager:
   - name: Background
     uniqueID: 1465510193
     locked: 0
+  - name: PreBack
+    uniqueID: 4017651279
+    locked: 0
+  - name: Interactables
+    uniqueID: 2813180057
+    locked: 0
   - name: Characters
     uniqueID: 32934581
     locked: 0
