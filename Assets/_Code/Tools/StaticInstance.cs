@@ -41,7 +41,7 @@ public abstract class Singleton<T> : StaticInstance<T> where T : MonoBehaviour
 /// loads. Perfect for system classes which require stateful, persistent data. Or audio sources
 /// where music plays through loading screens, etc
 /// </summary>
-public abstract class PersistentSingleton<T> : Singleton<T> where T : MonoBehaviour
+public abstract class Persistent<T> : Singleton<T> where T : MonoBehaviour
 {
     protected override void Awake()
     {
