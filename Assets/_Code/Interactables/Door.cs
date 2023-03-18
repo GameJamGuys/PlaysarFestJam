@@ -17,11 +17,13 @@ namespace _Code.Interactables
         [SerializeField] private Animator _animator;
         [SerializeField] private AudioSource _audioSource;
         [SerializeField] private ToggleBase _toggle;
+        [SerializeField] private ToggleCheckerBase _toggleCheckerBase;
         
         //Anim
         private static readonly int Active = Animator.StringToHash("active");
-        public bool animEnded;
         
+        public bool animEnded;
+        private bool _opened;
 
         private void OnEnable()
         {
@@ -35,14 +37,21 @@ namespace _Code.Interactables
 
         private void Toggle(bool state)
         {
-            _state = state;
-            SetAnim(state);
+            if (!_opened)
+            {
+                if (_toggleCheckerBase.GetState())
+                {
+                    _state = state;
+                    SetAnim(state);
+                }
+            }
         }
 
         private void SetAnim(bool state)
         {
             _audioSource.PlayOneShot(_doorOpenSound);
             _animator.SetBool(Active, state);
+            _opened = true;
         }
 
         public void OnAnimEnded()
