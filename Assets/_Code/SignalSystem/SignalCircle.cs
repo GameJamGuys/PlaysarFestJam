@@ -18,14 +18,14 @@ public class SignalCircle : MonoBehaviour
     }
 
 
-    void NewUnit(SignalSeeker unit)
+    public void NewUnit(SignalSeeker unit)
     {
         if (seekers.Contains(unit)) return;
 
         seekers.Add(unit);
     }
 
-    void RemoveUnit(SignalSeeker unit)
+    public void RemoveUnit(SignalSeeker unit)
     {
         seekers.Remove(unit);
     }

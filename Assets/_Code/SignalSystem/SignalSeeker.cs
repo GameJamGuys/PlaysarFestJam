@@ -11,7 +11,7 @@ public class SignalSeeker : MonoBehaviour
     {
         if(collision.TryGetComponent<SignalCircle>(out SignalCircle controller))
         {
-            controller.isContr
+            controller.NewUnit(this);
         }
         state = State.OnControl;
     }
