@@ -20,7 +20,7 @@ public class SignalCircle : MonoBehaviour
 
     void NewUnit(SignalSeeker unit)
     {
-        if (seekers.Contains(unit) return;
+        if (seekers.Contains(unit)) return;
 
         seekers.Add(unit);
     }
