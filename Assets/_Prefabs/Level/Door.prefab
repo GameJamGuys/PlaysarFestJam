@@ -548,8 +548,6 @@ GameObject:
   - component: {fileID: 5345083718254146226}
   - component: {fileID: 4109917115817711093}
   - component: {fileID: 921981806398311212}
-  - component: {fileID: 1835968320980127099}
-  - component: {fileID: 7945503499390133354}
   - component: {fileID: 5345083718254146227}
   - component: {fileID: 5155513868483991107}
   m_Layer: 0
@@ -611,34 +609,6 @@ MonoBehaviour:
   _toggleChecker: {fileID: 4109917115817711093}
   _collider2D: {fileID: 1072463551}
   animEnded: 0
---- !u!114 &1835968320980127099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5345083718254146237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e295dda5103a4e368f83a01eca37ac21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _state: 0
-  _defaultState: 0
---- !u!114 &7945503499390133354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5345083718254146237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 736d4c01f9174d7c863523123ab96d33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _toggle: {fileID: 1835968320980127099}
-  _tagType: 0
 --- !u!95 &5345083718254146227
 Animator:
   serializedVersion: 5
