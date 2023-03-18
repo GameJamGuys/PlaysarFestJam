@@ -6,22 +6,15 @@ using UnityEngine;
 /// This is a component used alongside CharacterData that controls all the movement and physics operations
 /// </summary>
 [RequireComponent(typeof(CharacterData))]
-[RequireComponent(typeof(Animator))]
 public class CharacterController2D : ObjectController2D {
-    // Animation attributes and names
-    private static readonly string ANIMATION_H_SPEED = "hSpeed";
-    private static readonly string ANIMATION_V_SPEED = "vSpeed";
-    private static readonly string ANIMATION_EX_SPEED = "exSpeed";
-    private static readonly string ANIMATION_JUMP = "jump";
-    private static readonly string ANIMATION_GROUNDED = "grounded";
-    private static readonly string ANIMATION_DASHING = "dashing";
-    private static readonly string ANIMATION_WALL = "onWall";
-    private static readonly string ANIMATION_FACING = "facingRight";
-    private static readonly string ANIMATION_LADDER = "onLadder";
-    private static readonly string ANIMATION_INVULNERABLE = "invulnerable";
+
+    private static readonly string ANIM_JUMP = "jump";
+    private static readonly string ANIM_MOVE_X = "speed";
+    private static readonly string ANIM_GROUNDED = "grounded";
 
     // Other Componenents
     private CharacterData cData;
+    [SerializeField]
     private Animator animator;
     private CharacterSoundManager soundManager;
     [SerializeField]
@@ -281,15 +274,8 @@ public class CharacterController2D : ObjectController2D {
             FacingRight = TotalSpeed.x > 0; 
             if (visual) visual.flipX = !FacingRight;
         }
-        animator.SetFloat(ANIMATION_H_SPEED, speed.x);
-        animator.SetFloat(ANIMATION_V_SPEED, TotalSpeed.y);
-        animator.SetFloat(ANIMATION_EX_SPEED, externalForce.x);
-        animator.SetBool(ANIMATION_GROUNDED, collisions.onGround);
-        animator.SetBool(ANIMATION_DASHING, Dashing);
-        animator.SetBool(ANIMATION_WALL, collisions.hHit);
-        animator.SetBool(ANIMATION_FACING, FacingRight);
-        animator.SetBool(ANIMATION_LADDER, OnLadder);
-        animator.SetBool(ANIMATION_INVULNERABLE, Invulnerable);
+        animator.SetFloat(ANIM_MOVE_X, speed.x);
+        animator.SetBool(ANIM_GROUNDED, collisions.onGround);
     }
 
     /// <summary>
@@ -375,7 +361,7 @@ public class CharacterController2D : ObjectController2D {
                 }
                 speed.y = Mathf.Sqrt(-2 * pConfig.gravity * height);
                 externalForce.y = 0;
-                animator.SetTrigger(ANIMATION_JUMP);
+                animator.SetTrigger(ANIM_JUMP);
                 if (cData.jumpCancelStagger) {
                     airStaggerTime = 0;
                 }

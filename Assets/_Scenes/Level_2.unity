@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &294621747 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6548873704137237919, guid: 032c204e916534147aa0544e2df24da9, type: 3}
-  m_PrefabInstance: {fileID: 1272449835}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bef86a920596124d96eafaa6a514a5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &346468933 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7523246288270178801, guid: bdfed0f6aa57d46409edf24ac6176141, type: 3}
@@ -352,10 +341,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6548873704137237917, guid: 032c204e916534147aa0544e2df24da9, type: 3}
       propertyPath: m_Name
-      value: DoorButton
+      value: Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+--- !u!114 &1272449836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4129291463258423999, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+  m_PrefabInstance: {fileID: 1272449835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5059b618c55040c9b28f3d7caa714eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1311307477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4968085754376448583, guid: 3ce11e8af6f4fb54fb36369c82895561, type: 3}
@@ -520,10 +520,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2100996426}
     m_Modifications:
+    - target: {fileID: 4109917115817711093, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
+      propertyPath: _toggles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109917115817711093, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
+      propertyPath: _toggles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1272449836}
     - target: {fileID: 5345083718254146225, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
       propertyPath: trigger
       value: 
-      objectReference: {fileID: 294621747}
+      objectReference: {fileID: 0}
     - target: {fileID: 5345083718254146226, guid: 4e4743e3c90535847a13b1c58e82814f, type: 3}
       propertyPath: m_RootOrder
       value: 3

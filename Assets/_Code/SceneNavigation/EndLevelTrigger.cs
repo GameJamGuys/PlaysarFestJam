@@ -1,13 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using _Code.Services.Interfaces;
+using _Code.Data;
 using UnityEngine;
 
 public class EndLevelTrigger : LevelTrigger
 {
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) EndLevel();
+        if (collision.CompareTag(TagType.Player.ToString()))
+        {
+            EndLevel();
+        }
     }
 }
