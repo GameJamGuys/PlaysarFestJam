@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Code.Services.Interfaces;
 using UnityEngine;
 
 public class EndLevelTrigger : MonoBehaviour, ILevelTrigger
@@ -10,6 +11,11 @@ public class EndLevelTrigger : MonoBehaviour, ILevelTrigger
     public void Init()
     {
 
+    }
+
+    public void Init(ITriggerService triggerService)
+    {
+        throw new System.NotImplementedException();
     }
 
     public void EndLevel()
