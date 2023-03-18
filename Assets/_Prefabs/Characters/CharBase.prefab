@@ -212,7 +212,6 @@ GameObject:
   - component: {fileID: 130141456363907131}
   - component: {fileID: 7679164029299157059}
   - component: {fileID: 564405291671411575}
-  - component: {fileID: 6658621231828699890}
   - component: {fileID: 7226266194112711481}
   m_Layer: 7
   m_Name: CharBase
@@ -497,28 +496,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   softCheckpoint: {x: 0, y: 0, z: 0}
   hardCheckpoint: {x: 0, y: 0, z: 0}
---- !u!114 &6658621231828699890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7639019662149956055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73dc0aeff9ae2824e9faa233ba155261, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRange: 0.4
-  rangePositionOffset: {x: 0, y: 0.5}
-  inputIcon: {fileID: 7679164030308979298}
-  iconPositionOffset: {x: 0, y: 1.2}
-  keyboardIcon: {fileID: 21300000, guid: 7950ab8866080fd458987021c047808f, type: 3}
-  xboxIcon: {fileID: 21300000, guid: 0c97ac9bc10efce4296293c890f0009b, type: 3}
-  psxIcon: {fileID: 21300000, guid: 84d388f930a22f443a743b60af7bcb4d, type: 3}
-  canPickup: 1
-  pickupPositionOffset: {x: 0, y: 1}
-  throwForce: {x: 8, y: 5}
 --- !u!114 &7226266194112711481
 MonoBehaviour:
   m_ObjectHideFlags: 0
