@@ -9,6 +9,8 @@ namespace _Code.Interactables
         [SerializeField] protected bool _state;
         
         //Actions
+        
+        //Toggle
         public Action<bool> toggled;
 
         public bool State
