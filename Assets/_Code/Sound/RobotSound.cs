@@ -1,4 +1,5 @@
 using System;
+using System.Net.NetworkInformation;
 using _Code.Characters;
 using UnityEngine;
 
@@ -9,12 +10,15 @@ namespace _Code.Sound
         [Header("Sounds")]
         [SerializeField] private AudioClip _signalOnSound;
         [SerializeField] private AudioClip _signalOffSound;
+        private bool _firstSound = true;
 
         [Header("Components")]
         [SerializeField] private AudioSource _audioSource;
 
         [SerializeField] private CharSignal _charSignal;
 
+        
+        
         private void OnEnable()
         {
             _charSignal.settedSignal += OnSignalSet;
@@ -27,8 +31,16 @@ namespace _Code.Sound
 
         public void OnSignalSet(bool state)
         {
-            var sound = state ? _signalOnSound : _signalOffSound;
-            _audioSource.PlayOneShot(sound);
+            if (!_firstSound)
+            {
+                var sound = state ? _signalOnSound : _signalOffSound;
+                _audioSource.PlayOneShot(sound);
+            }
+
+            else
+            {
+                _firstSound = false;
+            }
         }
     }
 }
