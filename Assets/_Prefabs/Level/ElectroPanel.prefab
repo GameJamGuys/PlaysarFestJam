@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2182175519109738896}
   - component: {fileID: 5512559376273805578}
   - component: {fileID: 1819144163770213148}
-  - component: {fileID: 154869825997058332}
   - component: {fileID: 647362819}
+  - component: {fileID: 4268649804017165298}
   m_Layer: 0
   m_Name: ElectroPanel
   m_TagString: Untagged
@@ -89,22 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e295dda5103a4e368f83a01eca37ac21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _toggleState: 0
+  state: 0
   _defaultToggleState: 0
---- !u!114 &154869825997058332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304409806746630585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 076cea46340140f6a863a92800b9c658, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _toggle: {fileID: 1819144163770213148}
-  _tagType: 1
 --- !u!114 &647362819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +105,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _animator: {fileID: 304409807105174684}
   _toggle: {fileID: 1819144163770213148}
+--- !u!114 &4268649804017165298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1557d107f43418db3deb29b3266fd73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _toggle: {fileID: 1819144163770213148}
+  _tagsTypes: 0000000001000000
 --- !u!1 &304409807105174690
 GameObject:
   m_ObjectHideFlags: 0
