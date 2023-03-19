@@ -96,8 +96,9 @@ GameObject:
   - component: {fileID: 6548873704137237907}
   - component: {fileID: 865342918646208589}
   - component: {fileID: 4129291463258423999}
-  - component: {fileID: 4110007540879775903}
   - component: {fileID: 588310159841911576}
+  - component: {fileID: 1411742565}
+  - component: {fileID: 3030019054792535656}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -112,7 +113,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6548873704137237917}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -213, y: -178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -173,26 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5059b618c55040c9b28f3d7caa714eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _toggleState: 0
+  state: 0
   _defaultToggleState: 0
-  _electroState: 0
---- !u!114 &4110007540879775903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6548873704137237917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd74ce399ec54936af640218e39ebefd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _disabledSprite: {fileID: 21300000, guid: 65928807fc475954ea07abf8c969053a, type: 3}
-  _enabledOffSprite: {fileID: 21300000, guid: 825630dc52be9f64c80b411e1d8dd874, type: 3}
-  _enabledOnSprite: {fileID: 21300000, guid: aed3245efca08844386bbdfb7704a870, type: 3}
-  _renderer: {fileID: 6123625929387477755}
-  _toggle: {fileID: 4129291463258423999}
 --- !u!114 &588310159841911576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,3 +188,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f5ea8e98c048c986db9ca62d830ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultState: 1
+  _state: 0
+--- !u!114 &1411742565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548873704137237917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b18eb4d3167a403cb24982b62c180ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _electricDevice: {fileID: 588310159841911576}
+  _toggle: {fileID: 4129291463258423999}
+  _deviceState: 0
+--- !u!114 &3030019054792535656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548873704137237917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cea2b90b5945f2987668b52fd90b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _disabledSprite: {fileID: 21300000, guid: 65928807fc475954ea07abf8c969053a, type: 3}
+  _enabledOffSprite: {fileID: 21300000, guid: 825630dc52be9f64c80b411e1d8dd874, type: 3}
+  _enabledOnSprite: {fileID: 21300000, guid: aed3245efca08844386bbdfb7704a870, type: 3}
+  _device: {fileID: 1411742565}
+  _renderer: {fileID: 6123625929387477755}

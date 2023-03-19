@@ -9,9 +9,9 @@ namespace _Code.Interactables
     {
         protected bool _toggled;
 
-        private void Start()
+        private void Awake()
         {
-            ToggleState = _defaultToggleState;
+            State = _defaultToggleState;
         }
 
         public override void Toggle()

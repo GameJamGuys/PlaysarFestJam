@@ -27,7 +27,7 @@ namespace _Code.Interactables.Checker
         {
             foreach (var toggle in _toggles)
             {
-                if (!toggle.ToggleState)
+                if (!toggle.State)
                 {
                     return false;
                 }
@@ -42,7 +42,7 @@ namespace _Code.Interactables.Checker
             
             foreach (var toggle in _toggles)
             {
-                if (!toggle.ToggleState)
+                if (!toggle.State)
                 {
                     result = false;
                     break;

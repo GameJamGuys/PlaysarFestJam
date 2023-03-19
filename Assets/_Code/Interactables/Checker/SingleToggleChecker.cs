@@ -20,12 +20,12 @@ namespace _Code.Interactables.Checker
 
         public override bool GetState()
         {
-            return _toggle.ToggleState;
+            return _toggle.State;
         }
 
         protected override void CheckState(bool state)
         {
-            if (_toggle.ToggleState)
+            if (_toggle.State)
             {
                 checkedTrue?.Invoke();
             }

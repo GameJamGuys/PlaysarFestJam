@@ -7,7 +7,8 @@ namespace _Code.Interactables.Electro
     public class ElectricDevice : MonoBehaviour
     {
         //State
-        private bool _state;
+        [SerializeField] private bool _defaultState;
+        [SerializeField] private bool _state;
         public bool State => _state;
 
         public Action<bool> changed;
@@ -21,10 +22,16 @@ namespace _Code.Interactables.Electro
         {
             _electroService = electroService;
         }
-        
+
+        private void Awake()
+        {
+            _state = _defaultState;
+        }
+
         public void SetState(bool state)
         {
             _state = state;
+            changed?.Invoke(_state);
         }
     }
 }

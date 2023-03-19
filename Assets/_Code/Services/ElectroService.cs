@@ -1,7 +1,9 @@
 using System;
 using _Code.Interactables.Electro;
+using _Code.Interactables.Panel;
 using _Code.Services.Interfaces;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _Code.Services
 {
@@ -10,7 +12,8 @@ namespace _Code.Services
         #region Private Fields
 
         private Action<bool> _electrified;
-        [SerializeField] private ElectricDevice[] _electricDevices;
+        [SerializeField] private ElectricDevice[] _devices;
+        [SerializeField] private ElectroPanel _panel;
 
         #endregion
         
@@ -21,16 +24,17 @@ namespace _Code.Services
             get => _electrified;
             set => _electrified = value;
         }
-        public ElectricDevice[] ElectricDevices => _electricDevices;
+        public ElectricDevice[] Devices => _devices;
 
         #endregion
 
 
-        private void Awake()
+        public void Init()
         {
-            foreach (var device in _electricDevices)
+            foreach (var device in _devices)
             {
                 device.Init(this);
+                _panel.Init(this, _devices);
             }
         }
     }

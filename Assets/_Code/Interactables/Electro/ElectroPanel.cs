@@ -31,9 +31,17 @@ namespace _Code.Interactables.Panel
             _devices = devices;
         }
 
+        private void Start()
+        {
+            SetState(false);
+        }
+
         private void SetState(bool state)
         {
-            
+            foreach (var device in _devices)
+            {
+                device.SetState(state);
+            }
         }
     }
 }

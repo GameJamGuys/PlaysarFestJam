@@ -1,14 +1,15 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _Code.Interactables.Toggles
 {
     public abstract class ToggleBase : MonoBehaviour
     {
         #region Private Fields
-
+        
         [Header("Toggle")]
-        [SerializeField] protected bool _toggleState;
+        [SerializeField] protected bool state;
         [SerializeField] protected bool _defaultToggleState;
 
         #endregion
@@ -22,10 +23,10 @@ namespace _Code.Interactables.Toggles
         
         #region Public Properties
 
-        public bool ToggleState
+        public bool State
         {
-            get => _toggleState;
-            set => _toggleState = value;
+            get => state;
+            set => state = value;
         }
 
         #endregion
@@ -34,8 +35,8 @@ namespace _Code.Interactables.Toggles
         //Public Methods
         public virtual void Toggle()
         {
-            ToggleState = !ToggleState;
-            toggled?.Invoke(ToggleState);
+            State = !State;
+            toggled?.Invoke(State);
         }
     }
 }

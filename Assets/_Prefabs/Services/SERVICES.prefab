@@ -243,6 +243,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
   m_PrefabInstance: {fileID: 4389263668716111484}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7800871574542166276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5812897321643224952, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+  m_PrefabInstance: {fileID: 4389263668716111484}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f7b1d0a2b24712bcbeff7c8ff354d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4885708816107859474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -298,6 +309,10 @@ PrefabInstance:
       propertyPath: _sceneService
       value: 
       objectReference: {fileID: 1065286073833173557}
+    - target: {fileID: 5549892977377638281, guid: 89bb2b6273e20e3449d3a8d8c8142a4e, type: 3}
+      propertyPath: _electroService
+      value: 
+      objectReference: {fileID: 7800871574542166276}
     - target: {fileID: 5549892977377638281, guid: 89bb2b6273e20e3449d3a8d8c8142a4e, type: 3}
       propertyPath: _triggerService
       value: 

@@ -1,6 +1,7 @@
 using System;
 using _Code.Data;
 using _Code.Interactables.Checker;
+using _Code.Interactables.Devices;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -16,7 +17,7 @@ namespace _Code.Interactables
         [Header("Components")] 
         [SerializeField] private Animator _animator;
         [SerializeField] private AudioSource _audioSource;
-        [SerializeField] private ToggleCheckerBase _toggleChecker;
+        [SerializeField] private DeviceChecker _deviceChecker;
         [SerializeField] private BoxCollider2D _collider2D;
         
         //Anim
@@ -27,12 +28,12 @@ namespace _Code.Interactables
 
         private void OnEnable()
         {
-            _toggleChecker.checkedTrue += OnOpen;
+            _deviceChecker.checkedWasTrue += OnOpen;
         }
 
         private void OnDisable()
         {
-            _toggleChecker.checkedTrue -= OnOpen;
+            _deviceChecker.checkedWasTrue -= OnOpen;
         }
         
         private void SetAnim(bool state)
