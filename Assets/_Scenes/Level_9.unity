@@ -1625,7 +1625,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1211154898503805578, guid: e3757e0976cdfc34b8fb89ac60d564bb, type: 3}
       propertyPath: m_Size.y
-      value: 50.79744
+      value: 10.218109
+      objectReference: {fileID: 0}
+    - target: {fileID: 1211154898503805578, guid: e3757e0976cdfc34b8fb89ac60d564bb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1211154898503805578, guid: e3757e0976cdfc34b8fb89ac60d564bb, type: 3}
       propertyPath: m_Offset.x
@@ -1633,7 +1637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1211154898503805578, guid: e3757e0976cdfc34b8fb89ac60d564bb, type: 3}
       propertyPath: m_Offset.y
-      value: -17.042
+      value: -37.331665
       objectReference: {fileID: 0}
     - target: {fileID: 1211154898503805578, guid: e3757e0976cdfc34b8fb89ac60d564bb, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -2544,7 +2548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0
+      value: 0.03133903
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -2552,7 +2556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.93700534
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
