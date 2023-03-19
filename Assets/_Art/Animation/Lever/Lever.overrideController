@@ -7,5 +7,13 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Lever
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: b3c4cca4279c29e40989294a43021b5a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0745625f7f2626b4faf514ed7a5d770d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 05bd4b201ff35483997679da4572090b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5fab4b42a725c0647a845821a99edc45, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 05bd4b201ff35483997679da4572090b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4af312be4ad4f7140a1bcbb3655e51e7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6ffb691e5fc64cff82a7d7abbfa09cf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 72ef22867f0eacc44bd698b7f6a2a6a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6ffb691e5fc64cff82a7d7abbfa09cf, type: 2}
