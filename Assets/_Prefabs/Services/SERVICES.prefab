@@ -31,6 +31,7 @@ Transform:
   - {fileID: 1065286074892097946}
   - {fileID: 1065286073266666553}
   - {fileID: 1065286073833173556}
+  - {fileID: 3036677294102512854}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -180,6 +181,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3fb2296bf6d445bdaaeb716509042fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &4389263668716111484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1065286074842217698}
+    m_Modifications:
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057231091303778508, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+      propertyPath: m_Name
+      value: ElectroService
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+--- !u!4 &3036677294102512854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1643178233847579306, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+  m_PrefabInstance: {fileID: 4389263668716111484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7800871574542166276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5812897321643224952, guid: 0596d1e9226e94245bf96dbb92dc8c45, type: 3}
+  m_PrefabInstance: {fileID: 4389263668716111484}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f7b1d0a2b24712bcbeff7c8ff354d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4885708816107859474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,6 +309,10 @@ PrefabInstance:
       propertyPath: _sceneService
       value: 
       objectReference: {fileID: 1065286073833173557}
+    - target: {fileID: 5549892977377638281, guid: 89bb2b6273e20e3449d3a8d8c8142a4e, type: 3}
+      propertyPath: _electroService
+      value: 
+      objectReference: {fileID: 7800871574542166276}
     - target: {fileID: 5549892977377638281, guid: 89bb2b6273e20e3449d3a8d8c8142a4e, type: 3}
       propertyPath: _triggerService
       value: 

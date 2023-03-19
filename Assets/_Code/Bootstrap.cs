@@ -10,6 +10,7 @@ namespace _Code
         //Services
         [SerializeField] private SceneService _sceneService;
         [SerializeField] private TriggerService _triggerService;
+        [SerializeField] private ElectroService _electroService;
         
         private void Awake()
         {
@@ -20,6 +21,7 @@ namespace _Code
         {
             _sceneService.Init();
             _triggerService.Init(_sceneService);
+            _electroService.Init();
         }
         
     }

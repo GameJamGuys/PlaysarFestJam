@@ -7,6 +7,9 @@ namespace _Code.SignalSystem
     public class RobotSignal : MonoBehaviour
     {
         [SerializeField] private CharSignal _charSignal;
+        [SerializeField] private Animator anim;
+
+        private string ANIM_CONTROL = "controlled";
 
         private void Start()
         {
@@ -21,8 +24,8 @@ namespace _Code.SignalSystem
                 controller.NewUnit(this);
             
                 _charSignal.SetSignal(true);
+                anim.SetBool(ANIM_CONTROL, true);
             }
-
         }
 
         private void OnTriggerExit2D(Collider2D collision)
@@ -33,6 +36,7 @@ namespace _Code.SignalSystem
                 controller.RemoveUnit(this);
             
                 _charSignal.SetSignal(false);
+                anim.SetBool(ANIM_CONTROL, false);
             }
         }
     }

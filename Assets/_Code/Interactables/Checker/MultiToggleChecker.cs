@@ -1,4 +1,5 @@
 using System;
+using _Code.Interactables.Toggles;
 using UnityEngine;
 
 namespace _Code.Interactables.Checker

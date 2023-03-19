@@ -1,0 +1,174 @@
+using System;
+using UnityEngine;
+
+public class AudioSystem : Persistent<AudioSystem>
+{
+    public MusicSettings settings;
+
+    public Sound main;
+    public Sound[] sounds;
+    [SerializeField]
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        AddSouce(main);
+        foreach (Sound sound in sounds)
+        {
+            AddSouce(sound);
+        }
+    }
+
+    private void Start()
+    {
+        if (!main.source.isPlaying && settings.isMusic)
+        {
+            main.source.volume = settings.Volume;
+            main.source.Play();
+        }
+    }
+
+    void Pause() => AudioListener.pause = true;
+    void Resume() => AudioListener.pause = false;
+
+    //Adding AudioSource with Sound prefs to AudioSystem
+    void AddSouce(Sound s)
+    {
+        Debug.Log($"Add sound {s.name}");
+        s.source = gameObject.AddComponent<AudioSource>();
+        s.source.clip = s.clip;
+
+        s.source.volume = s.volume;
+        s.source.pitch = s.pitch;
+        s.source.loop = s.loop;
+
+        s.source.playOnAwake = false;
+        //sources.Add(s.source);
+    }
+
+    //Turn on/off music
+    public void MusicSwitch(bool isPlay)
+    {
+        settings.ToggleMusic(isPlay);
+
+        if (isPlay) PlaySound(main);
+        else PauseSound(main);
+    }
+
+    //Turn on/off sounds
+    public void SoundSwitch(bool isPlay)
+    {
+        settings.ToggleSound(isPlay);
+
+        foreach (Sound sound in sounds)
+        {
+            if (isPlay) sound.source.enabled = true;
+            else sound.source.enabled = false;
+        }
+    }
+
+    //Change volume of Music
+    public void VolumeChange(float newVolume)
+    {
+        settings.Volume = newVolume;
+
+        main.source.volume = settings.Volume;
+    }
+
+    public async void SilentMusic(float time)
+    {
+        MuteMusic(true);
+        await Timer.Wait(time);
+        MuteMusic(false);
+    }
+
+    public void MuteMusic(bool isMute) => main.source.mute = isMute;
+
+    public void PlaySound(string name)
+    {
+        //Debug.Log($"Play sound {name}");
+        Sound soundToPlay = FindSound(name);
+        if (soundToPlay == null) return;
+        PlaySound(soundToPlay);
+    }
+
+    public void PlaySound(Sound name)
+    {
+        if (!name.source)
+        {
+            AddSouce(name);
+        }
+        if (name.source.isPlaying && name.fullPlay) return;
+        if (name.source.isActiveAndEnabled)
+            name.source.Play();
+    }
+
+    public void PauseSound(Sound name)
+    {
+        if (name.source.isActiveAndEnabled)
+            name.source.Pause();
+    }
+
+    public void StopSound(string name)
+    {
+        //Debug.Log($"Stop sound {name}");
+        Sound soundToStop = FindSound(name);
+        if (soundToStop == null) return;
+        soundToStop.source.Stop();
+    }
+
+    public void StopAllSounds()
+    {
+        foreach (Sound sound in sounds)
+        {
+            if (sound == main || sound.unstop) continue;
+
+            StopSound(sound.name);
+        }
+    }
+
+    public AudioSource GetSource(string name)
+    {
+        Sound sound = FindSound(name);
+        return sound.source;
+    }
+
+    Sound FindSound(string name)
+    {
+        Sound lookingSound = Array.Find(sounds, sound => sound.name == name);
+        return lookingSound;
+    }
+
+}
+
+[System.Serializable]
+public class MusicSettings
+{
+    public bool isSound = true;
+    public bool isMusic = true;
+
+    [Range(0, 1f)]
+    public float Volume;
+
+    public MusicSettings(bool sound, bool music, float volume)
+    {
+        isSound = sound;
+        isMusic = music;
+        Volume = volume;
+    }
+
+    public void ChangeVolume(float value) => Volume = value;
+
+    public void ToggleSound(bool isOn)
+    {
+        isSound = isOn;
+        Debug.Log($"Sound {isOn}");
+    }
+
+    public void ToggleMusic(bool isOn)
+    {
+        isMusic = isOn;
+        Debug.Log($"Music {isOn}");
+    }
+}
