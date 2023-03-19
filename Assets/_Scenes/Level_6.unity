@@ -1978,7 +1978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
       propertyPath: _devices.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
       propertyPath: _devices.Array.data[0]
