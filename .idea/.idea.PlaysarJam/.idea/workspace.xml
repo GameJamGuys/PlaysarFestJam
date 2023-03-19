@@ -2,24 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930353c6-f9f7-4c30-b7d1-66f1b4ba2a54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Data/DeviceState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Data/DeviceState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Anim/DeviceThreeSpriteAnim.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Anim/DeviceThreeSpriteAnim.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Device.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Device.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Devices.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Devices/DeviceChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Devices/DeviceChecker.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlaysarJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlaysarJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/CharSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/CharSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/CharSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/CharSignal.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/PlayerSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/PlayerSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/PlayerSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/PlayerSignal.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/RobotSignal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/RobotSignal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/RobotSignal.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/RobotSignal.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalCircle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalCircle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalCircle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Characters/Signal/SignalCircle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Code/SignalSystem/SignalSeeker.cs~" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Checker/MultiToggleChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Checker/MultiToggleChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Checker/SingleToggleChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Checker/SingleToggleChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Electro/ElectricDevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Electro/ElectricDevice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Electro/ElectroPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Electro/ElectroPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Toggles/ToggleBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Toggles/ToggleBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Interactables/Toggles/ToggleOnce.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Interactables/Toggles/ToggleOnce.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Code/Services/ElectroService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Code/Services/ElectroService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Door.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Services/SERVICES.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Services/SERVICES.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level_4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level_5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level_5.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Code/Interactables/Anim/ToggleThreeSpriteAnim.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,10 +97,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26424">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26788">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="26424" />
+      <option name="pid" value="26788" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -100,6 +118,7 @@
       <updated>1679125405898</updated>
       <workItem from="1679125410968" duration="3623000" />
       <workItem from="1679138943067" duration="4745000" />
+      <workItem from="1679186986262" duration="3906000" />
     </task>
     <servers />
   </component>
