@@ -433,8 +433,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 481.6000061035156,
-            "y": 356.0
+            "x": 1022.4000244140625,
+            "y": 395.1999816894531
         },
         "m_Blocks": [
             {
@@ -450,8 +450,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 481.6000061035156,
-            "y": 556.0
+            "x": 1022.4000244140625,
+            "y": 595.199951171875
         },
         "m_Blocks": [
             {
@@ -880,10 +880,10 @@
         "m_Id": "bf593579841346f8b00e9c1ff4866860"
     },
     "m_AllowMaterialOverride": false,
-    "m_SurfaceType": 0,
+    "m_SurfaceType": 1,
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
-    "m_AlphaMode": 2,
+    "m_AlphaMode": 1,
     "m_RenderFace": 2,
     "m_AlphaClip": false,
     "m_CastShadows": true,
@@ -3076,10 +3076,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 777.5999755859375,
-            "y": 711.2000122070313,
-            "width": 208.0,
-            "height": 325.60003662109377
+            "x": 815.2000122070313,
+            "y": 1076.800048828125,
+            "width": 208.00006103515626,
+            "height": 325.5999755859375
         }
     },
     "m_Slots": [
