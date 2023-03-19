@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1789821445
-  m_SortingLayer: 6
-  m_SortingOrder: 1
+  m_SortingLayerID: -1481787239
+  m_SortingLayer: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: -883852768, guid: 4c1ea0900fda74985bd8d060e8743fe0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,8 +96,9 @@ GameObject:
   - component: {fileID: 7496304793827786168}
   - component: {fileID: 4833056182117315379}
   - component: {fileID: 4200481677582384034}
-  - component: {fileID: 4943540162992975244}
   - component: {fileID: 8945517971200093907}
+  - component: {fileID: 4789172944512190243}
+  - component: {fileID: 4943540162992975244}
   m_Layer: 0
   m_Name: LeverPlate
   m_TagString: Untagged
@@ -204,6 +205,37 @@ MonoBehaviour:
   _sound: {fileID: 8300000, guid: a2ce3652db804544385482779561acf7, type: 3}
   _audioSource: {fileID: 6250088102465530931}
   _toggle: {fileID: 4833056182117315379}
+--- !u!114 &8945517971200093907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419755732647982402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd74ce399ec54936af640218e39ebefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _disabledSprite: {fileID: 21300000, guid: 4d81155c67498584ca69d86880fcbaf4, type: 3}
+  _enabledOffSprite: {fileID: -883852768, guid: 4c1ea0900fda74985bd8d060e8743fe0, type: 3}
+  _enabledOnSprite: {fileID: 1219801179, guid: 71334132a3bb348b78362ffaf4b68ea0, type: 3}
+  _renderer: {fileID: 6236035210012732579}
+  _toggle: {fileID: 4833056182117315379}
+--- !u!114 &4789172944512190243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419755732647982402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1557d107f43418db3deb29b3266fd73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _toggle: {fileID: 4833056182117315379}
+  _tagsTypes: 0000000001000000
 --- !u!61 &4943540162992975244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -230,23 +262,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 31.97, y: 50}
   m_EdgeRadius: 0
---- !u!114 &8945517971200093907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7419755732647982402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd74ce399ec54936af640218e39ebefd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _disabledSprite: {fileID: 21300000, guid: 4d81155c67498584ca69d86880fcbaf4, type: 3}
-  _enabledOffSprite: {fileID: -883852768, guid: 4c1ea0900fda74985bd8d060e8743fe0, type: 3}
-  _enabledOnSprite: {fileID: 1219801179, guid: 71334132a3bb348b78362ffaf4b68ea0, type: 3}
-  _renderer: {fileID: 7496304793827786168}
-  _toggle: {fileID: 4833056182117315379}
 --- !u!1 &7646448747659478467
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +334,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1481787239
   m_SortingLayer: 3
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -466940816, guid: 9a4f6e57ba8aa4d5ca1b511d1b6e8920, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

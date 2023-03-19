@@ -1,6 +1,7 @@
 using System;
 using _Code.Interactables.Toggles;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace _Code.Audio
 {
@@ -22,6 +23,7 @@ namespace _Code.Audio
 
         private void OnToggle(bool state)
         {
+            _audioSource.pitch = Random.Range(0.9f, 1.1f);
             _audioSource.PlayOneShot(_sound);
         }
     }
