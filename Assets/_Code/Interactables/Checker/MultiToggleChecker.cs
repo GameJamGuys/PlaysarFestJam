@@ -1,4 +1,5 @@
 using System;
+using _Code.Interactables.Toggles;
 using UnityEngine;
 
 namespace _Code.Interactables.Checker
@@ -26,7 +27,7 @@ namespace _Code.Interactables.Checker
         {
             foreach (var toggle in _toggles)
             {
-                if (!toggle.State)
+                if (!toggle.ToggleState)
                 {
                     return false;
                 }
@@ -41,7 +42,7 @@ namespace _Code.Interactables.Checker
             
             foreach (var toggle in _toggles)
             {
-                if (!toggle.State)
+                if (!toggle.ToggleState)
                 {
                     result = false;
                     break;

@@ -1,3 +1,5 @@
+using _Code.Interactables.Toggles;
+
 namespace _Code.Interactables
 {
     /// <summary>

@@ -352,6 +352,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5059b618c55040c9b28f3d7caa714eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1272449837 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 588310159841911576, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+  m_PrefabInstance: {fileID: 1272449835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f5ea8e98c048c986db9ca62d830ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1311307477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4968085754376448583, guid: 3ce11e8af6f4fb54fb36369c82895561, type: 3}
@@ -842,6 +853,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SERVICES
       objectReference: {fileID: 0}
+    - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: _electricDevices.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: _electricDevices.Array.data[0]
+      value: 
+      objectReference: {fileID: 1272449837}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
 --- !u!1001 &1211154898160091161

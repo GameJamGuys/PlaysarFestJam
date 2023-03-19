@@ -9,6 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 304409806746630584}
+  - component: {fileID: 2182175519109738896}
+  - component: {fileID: 5512559376273805578}
+  - component: {fileID: 1819144163770213148}
+  - component: {fileID: 154869825997058332}
+  - component: {fileID: 647362819}
   m_Layer: 0
   m_Name: ElectroPanel
   m_TagString: Untagged
@@ -24,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304409806746630585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -438.2, y: -157.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32,6 +37,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2182175519109738896
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 21}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 38, y: 42}
+    newSize: {x: 38, y: 43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 38, y: 42}
+  m_EdgeRadius: 0
+--- !u!114 &5512559376273805578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a3bddf5cc24d1b924b8e9eec045488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _devices: []
+  _toggle: {fileID: 1819144163770213148}
+--- !u!114 &1819144163770213148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e295dda5103a4e368f83a01eca37ac21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _toggleState: 0
+  _defaultToggleState: 0
+--- !u!114 &154869825997058332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076cea46340140f6a863a92800b9c658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _toggle: {fileID: 1819144163770213148}
+  _tagType: 1
+--- !u!114 &647362819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304409806746630585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f75ef8cc4d407f9e95da9de6aab752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 304409807105174684}
+  _toggle: {fileID: 1819144163770213148}
 --- !u!1 &304409807105174690
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,8 +190,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1481787239
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -797406841, guid: b83ce0979f04b44b9a7670f43ec64c17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -127,7 +214,7 @@ Animator:
   m_GameObject: {fileID: 304409807105174690}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b7c77bfde6d73479c8a41f667097a661, type: 2}
+  m_Controller: {fileID: 9100000, guid: b3cc9ddbc8b880a46888b10672e2e378, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -1,3 +1,5 @@
+using _Code.Interactables.Toggles;
+
 namespace _Code.Interactables
 {
     /// <summary>
@@ -9,7 +11,7 @@ namespace _Code.Interactables
 
         private void Start()
         {
-            State = _defaultState;
+            ToggleState = _defaultToggleState;
         }
 
         public override void Toggle()

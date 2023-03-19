@@ -320,6 +320,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+--- !u!114 &509742547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 588310159841911576, guid: 032c204e916534147aa0544e2df24da9, type: 3}
+  m_PrefabInstance: {fileID: 509742546}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f5ea8e98c048c986db9ca62d830ebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &806686593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,6 +1056,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SERVICES
       objectReference: {fileID: 0}
+    - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: _electricDevices.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800871574542166276, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
+      propertyPath: _electricDevices.Array.data[0]
+      value: 
+      objectReference: {fileID: 509742547}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0811bb1540944c640827137ce2b4264f, type: 3}
 --- !u!1001 &4968085753203629202

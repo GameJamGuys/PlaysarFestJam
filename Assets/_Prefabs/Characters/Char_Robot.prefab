@@ -143,6 +143,14 @@ PrefabInstance:
       propertyPath: minJumpHeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1923596089554979336, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923596089554979336, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 32934581
+      objectReference: {fileID: 0}
     - target: {fileID: 7226266194112711481, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: jumpSound
       value: 
@@ -153,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c396c09411bf94de480ee2ab5f356ce2, type: 2}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_Name
-      value: Robot
+      value: Char_Robot
       objectReference: {fileID: 0}
     - target: {fileID: 7639019662149956055, guid: cf33267ee6e63484094c76e57910a60b, type: 3}
       propertyPath: m_TagString

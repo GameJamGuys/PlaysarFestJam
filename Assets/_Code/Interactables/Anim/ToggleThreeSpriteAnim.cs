@@ -1,5 +1,6 @@
 using System;
 using _Code.Data;
+using _Code.Interactables.Toggles;
 using UnityEngine;
 
 namespace _Code.Interactables.Anim

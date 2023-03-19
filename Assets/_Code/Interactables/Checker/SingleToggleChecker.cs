@@ -1,4 +1,5 @@
 using System;
+using _Code.Interactables.Toggles;
 using UnityEngine;
 
 namespace _Code.Interactables.Checker
@@ -19,12 +20,12 @@ namespace _Code.Interactables.Checker
 
         public override bool GetState()
         {
-            return _toggle.State;
+            return _toggle.ToggleState;
         }
 
         protected override void CheckState(bool state)
         {
-            if (_toggle.State)
+            if (_toggle.ToggleState)
             {
                 checkedTrue?.Invoke();
             }
