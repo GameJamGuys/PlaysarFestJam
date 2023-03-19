@@ -149,11 +149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -316
+      value: -379
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60
+      value: -208
       objectReference: {fileID: 0}
     - target: {fileID: 9068251409312015944, guid: e823f8de80b704476bf1e98c00fe4756, type: 3}
       propertyPath: m_LocalPosition.z
@@ -792,7 +792,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 887e8f3635baeb34687e834fb0d704e2, type: 3}
-  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  m_Color: {r: 0.6896582, g: 0.7735849, b: 0.75703996, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1107,20 +1107,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.066037714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.066037714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.066037714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0
+      value: 0.30849478
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.04990403
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.7153502
       objectReference: {fileID: 0}
     - target: {fileID: 5799137950131462266, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 1.0364683
       objectReference: {fileID: 0}
     - target: {fileID: 8338787830916498948, guid: f9669b72293307242b887000b46c814d, type: 3}
       propertyPath: m_Enabled
