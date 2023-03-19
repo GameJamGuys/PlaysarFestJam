@@ -1635,7 +1635,7 @@ GameObject:
   - component: {fileID: 2079303687}
   - component: {fileID: 2079303686}
   m_Layer: 0
-  m_Name: PlaceholderBack
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1682,8 +1682,8 @@ SpriteRenderer:
   m_SortingLayerID: 1465510193
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 887e8f3635baeb34687e834fb0d704e2, type: 3}
-  m_Color: {r: 0.9056604, g: 0.43147027, b: 0.43147027, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4c98f96659ac2eb44b1b152bb9107820, type: 3}
+  m_Color: {r: 0.9056604, g: 0.38020647, b: 0.38020647, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1742,8 +1742,8 @@ Transform:
   - {fileID: 1606051125}
   - {fileID: 404949562}
   - {fileID: 1803062009}
-  - {fileID: 300534883}
   - {fileID: 1049077844}
+  - {fileID: 300534883}
   - {fileID: 1958804748}
   - {fileID: 1167589273}
   - {fileID: 840153668}
